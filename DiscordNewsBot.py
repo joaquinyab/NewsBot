@@ -33,7 +33,7 @@ async def on_message(message):
           'q': titleOut,
           'from': datetime.now().strftime('%Y-%m-%d-%H:%M:%S'),
           'pagesize': 20,
-          'apiKey': '406cae42bf3e4b9898911e5c573ce0ee'
+          'apiKey': 'SECRET KEY'
           
             }
       response = requests.get(url, params=caracteristicas)
@@ -47,4 +47,4 @@ async def on_message(message):
   
 
 
-client.run('OTUwMTkxNTM5MDcyNjk2MzYw.YiVU1A.nxATatROR18L6SxKKfuEaxAqwfg')
+client.run('SECRET KEY')
